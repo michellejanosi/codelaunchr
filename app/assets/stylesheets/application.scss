@@ -28,9 +28,38 @@
  .nav-link {
     color: #222;
  }
+
  .navbar-brand {
    font-family: 'Titillium Web', sans-serif;
    color: #d91c1c;
    font-weight: 700;
    font-size: 2em;
  }
+
+/* HERO */
+.hero {
+   background: linear-gradient(to top, rgba(27,33,51,0.549), rgba(27,33,51,0.549)), image_url('hero.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 470px;
+   color: #fff;
+   box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.intro {
+   position: absolute;
+   top: 35%;
+	left: 25%;
+}
+
+.intro h1 {
+   font-size: 4em;
+   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.intro p {
+   font-size: 1.15em;
+   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
