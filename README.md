@@ -2,8 +2,8 @@
 
 **Written in Ruby and built with the Rails framework.**
 
-CodeLaunchR is a two-sided, video-streaming marketplace platform featuring technical
-skills courses, similar to the Udemy platform.
+CodeLaunchR is a two-sided, video-streaming marketplace featuring technical skills
+courses, similar to the Udemy platform.
 
 ## Features:
 
