@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require font-awesome
  */
  // Custom bootstrap variables must be set or imported *before* bootstrap.
  @import "bootstrap";
@@ -17,6 +18,7 @@
 
  /* GENERAL STYLES */
  body {
+   background: image_url('bg.png');
    font-family: 'Open Sans', sans-serif;
  }
 
@@ -36,7 +38,7 @@
    font-size: 2em;
  }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
    background: linear-gradient(to top, rgba(27,33,51,0.549), rgba(27,33,51,0.549)), image_url('hero.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -62,4 +64,10 @@
 .intro p {
    font-size: 1.15em;
    text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+/* FEATURES SECTION */
+.feature {
+   width: 100%;
+   padding: 0 5%;
 }
