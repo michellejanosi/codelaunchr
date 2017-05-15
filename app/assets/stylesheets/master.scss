@@ -1,0 +1,75 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Titillium+Web:400,700');
+
+/* GENERAL STYLES */
+body {
+  background: image_url('bg.png');
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* NAVIGATION */
+.nav-link {
+   color: #222;
+}
+
+.navbar-brand {
+  font-family: 'Titillium Web', sans-serif;
+  color: #d91c1c;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(to top, rgba(27,33,51,0.549), rgba(27,33,51,0.549)), image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 470px;
+  color: #fff;
+ //  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.intro {
+  position: absolute;
+  top: 35%;
+ left: 25%;
+}
+
+.intro h1 {
+  font-size: 4em;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.intro p {
+  font-size: 1.15em;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+/* FEATURES SECTION */
+.feature {
+  width: 100%;
+  padding: 0 5%;
+}
+
+/* USER SECTION */
+.booyah-box {
+ -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+ -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+ box-shadow: 1px 1px 2px 0 #d0d0d0;
+ background: #fff;
+ border: 1px solid #ccc;
+ border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+ padding: 20px;
+ margin-top: 4em;
+}
+
+.booyah-box h2, .booyah-box h1 {
+ margin: 10px;
+}
