@@ -48,6 +48,9 @@ gem "font-awesome-rails"
 # Include Simple Form
 gem 'simple_form'
 
+# Include Devise for user authentication
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
