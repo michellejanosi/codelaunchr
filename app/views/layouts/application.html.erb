@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CodeLaunchR</title>
+    <title>CodeLaunchr</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -17,7 +17,7 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">CodeLaunchR 🚀</a>
+        <a class="navbar-brand" href="#">CodeLaunchr 🚀</a>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -28,14 +28,23 @@
           <ul class="navbar-nav">
           <% if user_signed_in? %>
             <li class="nav-item">
-              <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+              <%= link_to destroy_user_session_path, method: :delete, class: 'nav-link' do %>
+                <i class="fa fa-sign-out"></i>
+                  Sign out
+              <% end %>
             </li>
           <% else %>
             <li class="nav-item">
-              <%= link_to 'Sign in', new_user_session_path, class: 'nav-link' %>
+              <%= link_to new_user_session_path, class: 'nav-link' do %>
+                <i class="fa fa-sign-in"></i>
+                  Sign in
+                <% end %>
             </li>
             <li class="nav-item">
-              <%= link_to 'Sign up', new_user_registration_path, class: 'nav-link' %>
+              <%= link_to new_user_registration_path, class: 'nav-link' do %>
+                <i class="fa fa-user-plus"></i>
+                  Sign up
+                <% end %>
             </li>
           <% end %>
         </ul>
