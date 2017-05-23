@@ -70,3 +70,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add Carrierwave gem for image/video upload
 gem 'carrierwave', '~> 1.0'
+
+# Include Figaro
+gem "figaro"
