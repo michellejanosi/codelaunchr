@@ -30,7 +30,7 @@
   <div class="col-12">
     <% @course.sections.each do |section| %>
       <div class="section">
-        <%= section.title %>
+        <h4><%= section.title %></h4>
         <% section.lessons.each do |lesson| %>
           <div class="lesson">
             <%= link_to lesson_path(lesson) do %>
