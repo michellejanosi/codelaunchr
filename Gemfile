@@ -78,5 +78,8 @@ gem 'carrierwave-aws'
 # Add Stripe cc payment gem
 gem 'stripe'
 
+# Include jQuery UI
+gem 'jquery-ui-rails'
+
 # Include ranked-model gem
 gem 'ranked-model'
