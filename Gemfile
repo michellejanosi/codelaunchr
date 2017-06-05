@@ -83,6 +83,3 @@ gem 'jquery-ui-rails'
 
 # Include ranked-model gem
 gem 'ranked-model'
-
-# Include Font Awesome icons
-gem "font-awesome-rails"
