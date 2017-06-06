@@ -71,10 +71,52 @@
 
     <!-- Start Footer -->
     <div id="footer">
-      <div class="container">
-        <strong>Teachers</strong>
-        <br>
-        <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <strong class="section-title">Teachers</strong>
+            <br>
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br>
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <strong class="section-title">About</strong>
+            <br>
+            <%= link_to 'Team', '#' %>
+            <br>
+            <%= link_to 'Careers', '#' %>
+            <br>
+            <%= link_to 'Privacy Policy', '#' %>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <strong class="section-title">Contact</strong>
+            <br>
+            info@codelaunchr.com
+            <br>
+            One Code Square
+            <br>
+            Toronto, ON M5E 1W5
+          </div>
+
+          <div class="col-12 col-md-3">
+            <strong class="section-title">Social</strong>
+            <br>
+            <%= link_to '#' do %>
+              <span class="fa fa-github-square fa-2x social-button"></span>
+            <% end %>
+
+            <%= link_to '#' do %>
+              <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <% end %>
+
+            <%= link_to '#' do %>
+              <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
     <!-- End Footer -->
